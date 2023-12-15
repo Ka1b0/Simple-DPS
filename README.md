@@ -24,7 +24,6 @@ This is a simple reimplementation based on [official code](https://github.com/DP
 
 It is okay to use lower version of CUDA with proper pytorch version.
 
-
 <br />
 
 ## Getting started 
@@ -36,8 +35,6 @@ git clone https://github.com/Ka1b0/Simple-DPS
 
 cd Simple-DPS
 ```
-
-<br />
 
 ### 2) Download pretrained checkpoint
 From the [link](https://drive.google.com/drive/folders/1jElnRoFv7b31fG0v6pTSQkelbSX3xGZh?usp=sharing), download the checkpoint "ffhq_10m.pt" or "imagenet256.pt" and paste it to ./models/
@@ -61,7 +58,6 @@ pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --e
 
 pip install -r requirements.txt
 ```
-
 
 ### 4) Inference
 
