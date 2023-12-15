@@ -32,9 +32,9 @@ It is okay to use lower version of CUDA with proper pytorch version.
 ### 1) Clone the repository
 
 ```
-git clone https://github.com/DPS2022/diffusion-posterior-sampling
+git clone https://github.com/Ka1b0/Simple-DPS
 
-cd diffusion-posterior-sampling
+cd Simple-DPS
 ```
 
 <br />
