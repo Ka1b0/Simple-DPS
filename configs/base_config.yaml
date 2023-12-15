@@ -1,0 +1,24 @@
+conditioner:
+  name: ps
+  scale: 0.3
+
+data:
+  name: ffhq
+  root: ./data/samples/
+
+operator:
+  name: box-inpaint
+  random_rate: 0.92
+  box_width: 128
+  gaussian_kernel: 61
+  gaussian_var: 3.0
+  motion_kernel: 61
+  motion_direction: 0.5
+  scale_factor: 4
+  gamma: 4.0
+  gain: 0.5
+
+noise:
+  name: gaussian
+  sigma: 0.05
+  rate: 1
